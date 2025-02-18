@@ -6,13 +6,16 @@ Green: #00B172
 White: #FFF
 
 */
-
-body {
-    margin: 0px;
+* {
     box-sizing: border-box;
 }
 
-.section1 {border-top: white solid 0.5px;
+body {
+    margin: 0px;
+
+}
+
+.section1 {
     background-image: url("images/landing.jpg");
     background-size: cover;
     background-position: center bottom;
@@ -20,6 +23,7 @@ body {
     height: 500px;
     margin-left: 0;
     justify-content: center;
+    align-content:  center;
     text-align: center;
     margin-top: 0px;
     color: white;
@@ -39,6 +43,7 @@ nav {
     font-size: 14px;
     background-color: white;
     margin-top: 0px;
+
 }
 
 ul {
@@ -62,6 +67,7 @@ a {
     position: fixed;
     margin-top: 0px;
     width: 100%;
+    top: 0px;
 
 }
 
@@ -77,7 +83,7 @@ h1 {
 
 .text {
     align-items: center;
-    margin-top: 200px;
+   
 
 
 }
@@ -127,17 +133,14 @@ h2 {
 }
 
 #icon-white {
-    max-width: 150px;
-    flex: 1;
-    min-width: 100px;
-    flex-shrink: 1;
+    max-width: 100px;
+    
 }
 
 #spotify-app {
     max-width: 250px;
-    margin-right: 1rem;
-    flex: 1;
-    flex-shrink: 1;
+    margin-right: 50px;
+   
 }
 
 .section3 {
@@ -150,17 +153,22 @@ h2 {
     position: relative;
 }
 
-.section3 h2 { display: flex;
+.section3 h2 {
+    display: flex;
     text-decoration: underline;
     text-align: left;
     text-decoration-color: white;
     margin-bottom: 50px;
     margin-top: 0px;
 }
-.logo-white {position: absolute; top: 50%;
+
+.logo-white {
+    position: absolute;
+    top: 50%;
     right: 50%;
     left: 50%;
 }
+
 .item {
     max-width: 44%;
 }
