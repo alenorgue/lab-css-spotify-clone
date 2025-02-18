@@ -89,6 +89,7 @@ h2 {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #00B172;
+    text-underline-offset: 5px;
 }
 
 .section2 {
@@ -140,10 +141,13 @@ h2 {
 }
 
 .section3 {
-    display: flex;
+
     background-color: #00B172;
+    background-image: url("images/spotify-app.jpg");
+    background-size: 220px;
+    background-position: 90% center;
+    background-repeat: no-repeat;
     color: white;
-    justify-content: space-between;
     padding: 45px;
     text-align: left;
     position: relative;
@@ -160,11 +164,10 @@ h2 {
 
 .logo-white {
     position: absolute;
-    top: 50%;
-    right: 50%;
-    left: 50%;
+    top: 48%;
+    left: 48%;
 }
 
 .item {
-    max-width: 44%;
+    max-width: 45%;
 }
