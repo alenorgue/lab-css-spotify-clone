@@ -6,15 +6,13 @@ Green: #00B172
 White: #FFF
 
 */
-* {
-    border: #010101 1px solid;}
-    
+
 body {
     margin: 0px;
     box-sizing: border-box;
 }
 
-.section1 {
+.section1 {border-top: white solid 0.5px;
     background-image: url("images/landing.jpg");
     background-size: cover;
     background-position: center bottom;
