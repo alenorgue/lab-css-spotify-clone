@@ -129,12 +129,15 @@ h2 {
 }
 
 #icon-white {
-    width: 150px;
+    max-width: 150px;
+    flex: 1;
+    min-width: 100px;
+    flex-shrink: 1;
 }
 
 #spotify-app {
     max-width: 250px;
-    margin-right: 8%;
+    margin-right: 1rem;
     flex: 1;
     flex-shrink: 1;
 }
@@ -144,14 +147,12 @@ h2 {
     background-color: #00B172;
     color: white;
     justify-content: space-between;
-
-    background-repeat: no-repeat;
     padding: 45px;
     text-align: left;
     position: relative;
 }
 
-.section3 h2 {
+.section3 h2 { display: flex;
     text-decoration: underline;
     text-align: left;
     text-decoration-color: white;
